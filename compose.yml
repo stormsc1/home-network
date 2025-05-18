@@ -40,7 +40,7 @@ services:
       - DOCKER_INFLUXDB_INIT_PASSWORD=12345678
       - DOCKER_INFLUXDB_INIT_ORG=my
       - DOCKER_INFLUXDB_INIT_BUCKET=my-bucket
-    
+
 volumes:
   influxdb-data:
     driver: local

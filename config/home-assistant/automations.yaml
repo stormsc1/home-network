@@ -1,1 +1,56 @@
-[]
+- id: '1744239404509'
+  alias: turn on grow lights
+  description: ''
+  triggers:
+  - trigger: time
+    at: 06:00:00
+  conditions: []
+  actions:
+  - type: turn_on
+    device_id: f4afd4ec7da8dfc42e0f4918a136e553
+    entity_id: d749b956e9ac580ba54fd2f65590320c
+    domain: switch
+  mode: single
+- id: '1744239493120'
+  alias: turn off grow lights
+  description: ''
+  triggers:
+  - trigger: time
+    at: '22:00:00'
+  conditions: []
+  actions:
+  - type: turn_off
+    device_id: f4afd4ec7da8dfc42e0f4918a136e553
+    entity_id: d749b956e9ac580ba54fd2f65590320c
+    domain: switch
+  mode: single
+- id: '1746048856661'
+  alias: turn off bedroom
+  description: ''
+  triggers:
+  - trigger: time
+    at: '23:30:00'
+  conditions: []
+  actions:
+  - action: light.turn_off
+    metadata: {}
+    data:
+      transition: 10
+    target:
+      device_id: 19d66c0e1421e2f13abb80fd742bf577
+  mode: single
+- id: '1746048990795'
+  alias: turn on bedroom
+  description: ''
+  triggers:
+  - trigger: time
+    at: 08:00:00
+  conditions: []
+  actions:
+  - action: light.turn_on
+    metadata: {}
+    data:
+      transition: 120
+    target:
+      device_id: 19d66c0e1421e2f13abb80fd742bf577
+  mode: single

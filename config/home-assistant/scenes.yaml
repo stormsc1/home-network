@@ -1,0 +1,193 @@
+- id: '1746049188903'
+  name: Evening
+  entities:
+    light.bedroom_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: xy
+      brightness: 51
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 28.657
+      - 52.549
+      rgb_color:
+      - 255
+      - 185
+      - 121
+      xy_color:
+      - 0.479
+      - 0.384
+      is_hue_group: true
+      hue_scenes:
+      - Dimmed
+      - Savanna sunset
+      - Energize
+      - Read
+      - Concentrate
+      - Relax
+      - Arctic aurora
+      - Nightlight
+      - Bright
+      - Tropical twilight
+      - Spring blossom
+      hue_type: room
+      lights:
+      - Loft
+      entity_id:
+      - light.loft_2
+      dynamics: false
+      icon: mdi:lightbulb-group
+      friendly_name: Bedroom
+      supported_features: 40
+      state: 'on'
+  metadata: {}
+  icon: mdi:weather-sunset
+- id: '1746049227449'
+  name: Blackout
+  entities:
+    light.bedroom_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      is_hue_group: true
+      hue_scenes:
+      - Dimmed
+      - Savanna sunset
+      - Energize
+      - Read
+      - Concentrate
+      - Relax
+      - Arctic aurora
+      - Nightlight
+      - Bright
+      - Tropical twilight
+      - Spring blossom
+      hue_type: room
+      lights:
+      - Loft
+      entity_id:
+      - light.loft_2
+      dynamics: false
+      icon: mdi:lightbulb-group
+      friendly_name: Bedroom
+      supported_features: 40
+      state: 'off'
+  metadata: {}
+  icon: mdi:sleep
+- id: '1746733357955'
+  name: Day
+  entities:
+    light.bedroom_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: color_temp
+      brightness: 255
+      color_temp_kelvin: 2915
+      color_temp: 343
+      hs_color:
+      - 27.971
+      - 59.254
+      rgb_color:
+      - 255
+      - 174
+      - 104
+      xy_color:
+      - 0.504
+      - 0.384
+      is_hue_group: true
+      hue_scenes:
+      - Dimmed
+      - Savanna sunset
+      - Energize
+      - Read
+      - Concentrate
+      - Relax
+      - Arctic aurora
+      - Nightlight
+      - Bright
+      - Tropical twilight
+      - Spring blossom
+      hue_type: room
+      lights:
+      - Loft
+      entity_id:
+      - light.loft_2
+      dynamics: false
+      icon: mdi:lightbulb-group
+      friendly_name: Bedroom
+      supported_features: 40
+      state: 'on'
+  icon: mdi:weather-sunny
+  metadata: {}
+- id: '1746735917388'
+  name: Morning
+  entities:
+    light.bedroom_2:
+      min_color_temp_kelvin: 2000
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 500
+      supported_color_modes:
+      - color_temp
+      - xy
+      color_mode: color_temp
+      brightness: 255
+      color_temp_kelvin: 6535
+      color_temp: 153
+      hs_color:
+      - 54.768
+      - 1.6
+      rgb_color:
+      - 255
+      - 255
+      - 251
+      xy_color:
+      - 0.325
+      - 0.333
+      is_hue_group: true
+      hue_scenes:
+      - Dimmed
+      - Savanna sunset
+      - Energize
+      - Read
+      - Concentrate
+      - Relax
+      - Arctic aurora
+      - Nightlight
+      - Bright
+      - Tropical twilight
+      - Spring blossom
+      hue_type: room
+      lights:
+      - Loft
+      entity_id:
+      - light.loft_2
+      dynamics: false
+      icon: mdi:lightbulb-group
+      friendly_name: Bedroom
+      supported_features: 40
+      state: 'on'
+  metadata: {}
+  icon: mdi:coffee
